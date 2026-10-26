@@ -3,8 +3,20 @@
   "short_name": "IAEstudio",
   "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#38447f",
+  "background_color": "#ffffff",
   "theme_color": "#1a73e8",
   "orientation": "portrait",
-  "description": "Aplicacion inteligente creada con Google AI Studio y Gemini."
+  "description": "Aplicacion inteligente creada con Google AI Studio y Gemini.",
+  "icons": [
+    {
+      "src": "https://cloudflare.com",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "https://cloudflare.com",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
 }
