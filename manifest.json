@@ -1,1 +1,18 @@
+{
+  "name": "IA ESTUDIO",
+  "short_name": "IA.E"
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1a73e8",
+  "orientation": "portrait",
+  "description": "Aplicacion inteligente creada con Google AI Studio y Gemini.",
+  "icons": [
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
 
