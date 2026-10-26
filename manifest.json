@@ -9,12 +9,7 @@
   "description": "Aplicacion inteligente creada con Google AI Studio y Gemini.",
   "icons": [
     {
-      "src": "https://cloudflare.com",
-      "sizes": "72x72",
-      "type": "image/png"
-    },
-    {
-      "src": "https://cloudflare.com",
+      "src": "./icon-512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
