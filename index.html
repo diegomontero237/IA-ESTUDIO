@@ -1,14 +1,36 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IA-ESTUDIO</title>
-    <!-- Aquí vinculamos el manifiesto que ya creaste -->
-    <link rel="manifest" href="./manifest.json" />
-</head>
-<body>
-    <h1>¡Mi App de Google AI Studio está lista!</h1>
-    <p>Si Gemini te dio un código HTML en el chat de AI Studio, borra todo este texto y pega ese código aquí adentro.</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IA ESTUDIO — Fútbol En Vivo & Tablas Oficiales</title>
+    <meta name="description" content="Plataforma de fútbol en vivo con tablas oficiales de posiciones (Liga BetPlay, Premier League, LaLiga, Champions League) y análisis táctico en directo con IA." />
+    
+    <!-- Open Graph / Redes Sociales -->
+    <meta property="og:title" content="IA ESTUDIO — Fútbol En Vivo & Tablas Oficiales" />
+    <meta property="og:description" content="Plataforma de fútbol en vivo con tablas oficiales de posiciones (Liga BetPlay, Premier League, LaLiga, Champions League) y análisis táctico en directo con IA." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Configuración PWA y Pantalla Completa en Android / iOS -->
+    <meta name="theme-color" content="#0f172a" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="IA Fútbol" />
+    <meta name="application-name" content="IA Fútbol" />
+
+    <!-- Enlaces al Manifiesto PWA -->
+    <link rel="manifest" href="/manifest.webmanifest" />
+
+    <!-- Iconos de Aplicación para Android y iPhone -->
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/pwa-192x192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="/pwa-512x512.png" />
+  </head>
+  <body class="bg-slate-950 text-white min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
